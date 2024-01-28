@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Picnic Form</title>
+</head>
+
+<body>
+    <form action="post">
+        <h1>This a form fpr the approval of the Picnic</h1>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" autofocus>
+        </div>
+        <br>
+        <div>
+            <label for="rollno">Roll No.</label>
+            <input type="text" id="rollno" name="rollno" placeholder="Enter your Roll No.">
+        </div>
+        <br>
+        <div>
+            <label for="payment">Cash</label>
+            <input type="radio" id="payment" name="payment" value="Cash">
+            <label for="payment">Online</label>
+            <input type="radio" name="payment" id="payment" value="Online">
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="approval" id="approval" value="approved">
+            <label for="approval">Approval by Parents</label>
+        </div>
+        <br>
+        <div>
+            <label for="allergy">Any Allergies</label>
+            <br>
+            <textarea name="allergy" id="allergy" cols="30" rows="5"></textarea>
+        </div>
+        <br>
+        <div>
+            <select name="drink" id="drink">
+                <option value="Tea">Tea</option>
+                <option value="Coffee">Coffee</option>
+                <option value="Milk">Milk</option>
+            </select>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
