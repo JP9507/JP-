@@ -1,0 +1,1 @@
+alert("The Following piece of art is only a work of Fiction. please do not relate any of the character to real life. And do not get offended [ If offended then Maa Fadava jao ]")
